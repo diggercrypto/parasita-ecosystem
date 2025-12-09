@@ -4,11 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>DIGGER_CRYPTO | Parasita Protocol & Mamacoco Ecosystem</title>
+<title>DIGGER_CRYPTO | Parasita Protocol Ecosystem</title>
 
-<meta name="description" content="DIGGER_CRYPTO is a self-funding DeFi ecosystem on Polygon. Featuring Parasita Protocol, Mamacoco utility token and APE-LP liquidity mechanics.">
-<meta name="keywords" content="crypto, defi, polygon, parasita protocol, mamacoco token, liquidity pool, deflationary crypto">
-<meta name="author" content="DIGGER_CRYPTO">
+<meta name="description" content="DIGGER_CRYPTO is a Polygon-based DeFi ecosystem composed of Parasita Protocol, Mamacoco utility token and APE liquidity pools. Designed for deflation, sustainability and long-term stability.">
+<meta name="keywords" content="crypto, polygon, defi, parasita protocol, mamacoco, ape lp, liquidity pool, deflationary token">
 <meta name="robots" content="index, follow">
 
 <style>
@@ -21,17 +20,16 @@ body {
 
 header {
     text-align: center;
-    padding: 60px 20px;
+    padding: 70px 20px;
     border-bottom: 2px solid #00ff66;
 }
 
-/* LOGO SVG */
 .logo {
-    width: 220px;
+    width: 240px;
     margin: auto;
 }
 .logo text {
-    font-size: 48px;
+    font-size: 50px;
     fill: #00ff66;
     font-weight: bold;
     letter-spacing: 3px;
@@ -41,20 +39,14 @@ header {
 }
 
 h1 {
-    color: #00ff66;
     font-size: 3em;
-    margin: 20px 0 0 0;
-}
-
-header p {
-    color: #aaa;
-    margin-top: 10px;
+    color: #00ff66;
 }
 
 section {
     max-width: 1200px;
     margin: auto;
-    padding: 50px 20px;
+    padding: 60px 20px;
 }
 
 h2 {
@@ -63,41 +55,30 @@ h2 {
     padding-bottom: 10px;
 }
 
-p, li {
-    color: #ccc;
-    font-size: 1.05em;
-}
-
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 40px;
-    align-items: center;
 }
 
 iframe {
     width: 100%;
-    height: 420px;
+    height: 560px;
     border: 1px solid #222;
     background: #000;
 }
 
 ul {
-    padding-left: 20px;
+    color: #ccc;
+    font-size: 1.05em;
 }
 
 footer {
     text-align: center;
     padding: 30px;
     border-top: 1px solid #222;
-    color: #666;
     font-size: 0.9em;
-}
-
-@media(max-width: 900px) {
-    .grid {
-        grid-template-columns: 1fr;
-    }
+    color: #666;
 }
 </style>
 </head>
@@ -105,8 +86,6 @@ footer {
 <body>
 
 <header>
-
-<!-- LOGO INLINE (SVG) -->
 <svg class="logo" viewBox="0 0 600 100">
   <text x="0" y="70">
     <tspan class="p-special">P</tspan>ARASITA
@@ -114,82 +93,91 @@ footer {
 </svg>
 
 <h1>DIGGER_CRYPTO</h1>
-<p>Self-Funding DeFi Ecosystem on Polygon</p>
-
+<p>Polygon DeFi Ecosystem • Transparent • Deflationary • On-Chain</p>
 </header>
 
 <section>
-<h2>What is DIGGER_CRYPTO</h2>
+<h2>Ecosystem Overview</h2>
 <p>
-DIGGER_CRYPTO is a decentralized financial ecosystem built on Polygon.
-It is designed to be <strong>self-sustaining, deflationary and transparent</strong>.
-The ecosystem operates through real on-chain mechanics that generate
-liquidity, reduce supply and maintain long-term stability.
+DIGGER_CRYPTO is a decentralized ecosystem built on the Polygon blockchain.
+The architecture is designed to operate without external funding,
+venture capital or artificial price support.
+Each component serves a distinct on-chain function while reinforcing system stability.
 </p>
 </section>
 
 <section>
-<h2>PARASITA Protocol</h2>
-<div class="grid">
-<div>
+<h2>Parasita Protocol — Smart Contract Logic</h2>
 <p>
-PARASITA is the deflationary core of the ecosystem.
-Each transaction applies a small tribute that funds the protocol
-and permanently removes tokens from circulation.
+The Parasita Protocol is a deflationary ERC-20 smart contract that
+implements controlled supply reduction through transaction-level mechanics.
+The contract logic is simple, transparent and intentionally minimal.
 </p>
+
 <ul>
-<li>Deflationary burn mechanism</li>
-<li>Self-funded treasury model</li>
-<li>No reliance on external capital</li>
+<li>Standard ERC-20 transfer logic</li>
+<li>Internal fee mechanism routed to protocol-controlled addresses</li>
+<li>Permanent burn reducing total circulating supply</li>
+<li>No mint functions after deployment</li>
+<li>No hidden owner minting privileges</li>
 </ul>
-</div>
+
+<p>
+Parasita is designed to behave as a *value-extraction protocol*:
+value is accumulated through transaction flow rather than speculative minting.
+</p>
 
 <iframe src="https://dexscreener.com/polygon/0x6532463D3AD92Df83A37477A54b1d990638a5980?embed=1&theme=dark"></iframe>
-</div>
 </section>
 
 <section>
-<h2>MAMACOCO Utility Token</h2>
-<div class="grid">
-<div>
+<h2>Mamacoco Token — Utility & Stability Layer</h2>
 <p>
-MAMACOCO acts as the liquidity and utility bridge of the ecosystem.
-It supports trading stability and future staking or vault mechanics.
+Mamacoco operates as a utility and liquidity-supporting asset inside
+the DIGGER_CRYPTO ecosystem.
+Its smart contract follows a conventional ERC-20 model to ensure
+maximum compatibility with DeFi tools and liquidity platforms.
 </p>
+
 <ul>
-<li>Liquidity bridge</li>
-<li>Utility expansion token</li>
-<li>Ecosystem stabilization</li>
+<li>Utility-focused token without excessive taxation</li>
+<li>Used for liquidity pairing and ecosystem expansion</li>
+<li>Predictable supply behavior</li>
+<li>Optimized for low-cost Polygon transactions</li>
 </ul>
-</div>
+
+<p>
+Mamacoco acts as an operational asset rather than a speculative instrument,
+allowing the ecosystem to grow organically.
+</p>
 
 <iframe src="https://dexscreener.com/polygon/0x6C70f9870DF0A1A2C925522b548B2CD37B7C63Fd?embed=1&theme=dark"></iframe>
-</div>
 </section>
 
 <section>
-<h2>APE-LP Liquidity Pool</h2>
-<div class="grid">
-<div>
+<h2>APE LP — Liquidity Infrastructure</h2>
 <p>
-APE-LP represents the liquidity foundation between PARASITA
-and MAMACOCO. Strong LP mechanics reduce volatility and
-enable sustainable price discovery.
+APE LP represents the liquidity pool between Parasita and Mamacoco.
+Liquidity pools are the backbone of decentralized price discovery.
 </p>
+
 <ul>
-<li>Liquidity backbone</li>
-<li>Price stability</li>
-<li>Efficient on-chain swaps</li>
+<li>Automated Market Maker (AMM) based pricing</li>
+<li>Reduces volatility through deep liquidity</li>
+<li>Supports sustainable transaction flow</li>
+<li>Non-custodial and permissionless</li>
 </ul>
-</div>
+
+<p>
+The LP is intentionally left market-driven to avoid artificial price control.
+</p>
 
 <iframe src="https://dexscreener.com/polygon/0x9087A5ce1eD63eD1228e90Bc82f8412C691cCC40?embed=1&theme=dark"></iframe>
-</div>
 </section>
 
 <footer>
 <p>DIGGER_CRYPTO © 2025</p>
-<p>Polygon • DeFi • On-Chain • Self-Funding</p>
+<p>Polygon • DeFi • Transparent Smart Contracts</p>
 </footer>
 
 </body>
